@@ -28,6 +28,8 @@ HidingNavigationBar supports hiding/showing of the following view elements:
 
 #Usage
 
+###Note: HidingNavigationBar only works with UINavigationBars that have translucent set to true.
+
 1. Import HidingNavigationBar
 2. Include a member variable of type `HidingNavigationBarManager` in your `UIViewController` subclass.
 3. Initialize the variable in `viewDidLoad` function, passing in the `UIViewController` instance and the `UIScrollView` instance that will control the hiding/showing of the navigation bar.
